@@ -1,6 +1,4 @@
-
 class Person {
-
   String name = "Guest";
   String? address;
   final String country = "Indonesia";
@@ -14,11 +12,9 @@ class Person {
   Person.fromJakarta() : this.withAddress("Jakarta");
 
   Person.withNoName() : this.withName("No Name");
-
 }
 
-void main(){
-
+void main() {
   var person = Person("Eko", "Jakarta");
   print(person.name);
   print(person.address);
@@ -38,5 +34,4 @@ void main(){
   var person5 = Person.withNoName();
   print(person5.name);
   print(person5.address);
-
 }

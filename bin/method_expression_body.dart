@@ -1,6 +1,4 @@
-
 class Computer {
-  
   // void startup() {
   //   print("computer is starting");
   // }
@@ -17,7 +15,7 @@ class Computer {
 
 }
 
-void main(){
+void main() {
   var computer = Computer();
   computer.startup();
   computer.shutdown();

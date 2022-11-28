@@ -1,21 +1,16 @@
-
 class Person {
-
   String name = "Guest";
   String? address;
   final String country = "Indonesia";
 
-  Person(String paramName, String paramAddress){
+  Person(String paramName, String paramAddress) {
     name = paramName;
     address = paramAddress;
   }
-
 }
 
-void main(){
-
+void main() {
   var person = Person("Eko", "Jakarta");
   print(person.name);
   print(person.address);
-
 }
